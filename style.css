@@ -131,20 +131,50 @@ body {
 }
 
 @media (max-width: 768px) {
+   .calculatorBox {
+       height: 80vh;
+       max-width: 90%;
+       padding: 10px;
+   }
+    
     #result {
-        font-size: 1.5em;
+        font-size: 1.8em;
+        padding: 15px;
     }
     
     .button, .equal {
         font-size: 1.2em;
         padding: 15px;
     }
+
+    .Buttonbox {
+        grid-gap: 5px;
+    }
+}
+
+@media (max-width: 375px) {
+    .calculatorBox {
+        height: 80vh;
+        padding: 10px;
+        max-width: 90%;
+    }
+    
+    #result {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+    
+    .button, .equal {
+        font-size: 1em;
+        padding: 10px;
+    }
 }
 
 @media (max-width: 480px) {
     .calculatorBox {
-        height: 90vh;
+        height: 80vh;
         padding: 10px;
+        max-width: 80%;
     }
     
     #result {
